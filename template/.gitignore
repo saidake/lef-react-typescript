@@ -1,0 +1,12 @@
+.DS_Store
+.idea
+.vscode
+.history
+.cache
+.aliossrc
+
+dist
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
