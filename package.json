@@ -3,9 +3,6 @@
   "version": "1.0.1",
   "description": "This package provides template for \"lef\".",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saidake/lef-react-typescript.git"
@@ -17,6 +14,10 @@
     "url": "https://github.com/saidake/lef-react-typescript/issues"
   },
   "homepage": "https://github.com/saidake/lef-react-typescript#readme",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack serve --mode development"
+  },
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
