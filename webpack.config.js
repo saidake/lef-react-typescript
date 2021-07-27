@@ -39,22 +39,7 @@ module.exports = {
     host: 'localhost',
     port: '9000',
     open: true,
-    stats: {
-        colors: false,
-        hash: false,
-        version: false,
-        timings: false,
-        assets: false,
-        chunks: false,
-        modules: false,
-        reasons: false,
-        children: false,
-        source: false,
-        errors: true,
-        errorDetails: true,
-        warnings: false,
-        publicPath: false
-      }
+    stats: "minimal"
   },
   devtool: 'eval-cheap-module-source-map',
   plugins: [
